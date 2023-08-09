@@ -1,0 +1,255 @@
+.header_logo {
+    height: 65px;
+    width: 15%;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0;  
+    height: 65px;
+    padding-left: 75px;
+    padding-right: 75px;
+    border-bottom: 2px solid var(--primary-color);
+    position: fixed;
+    background-color: #fff;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, .2);   
+}
+.header_logo_img {
+    background-repeat: no-repeat;
+    background-size: 498px 300px;
+    width: 165px;
+    height: 33px;
+    margin-top: 17px;
+    margin-right: -12px;
+}
+.header_search {
+    height: 28px;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 17px;
+    padding-left: 10px;
+    font-size: 13px;
+    color: #c0c0c0;
+    outline: 0;
+    border: 1px solid #ddd;
+    color: #fff;
+    border-radius: 3px;
+}
+.header_search_input {
+    width: 172px;
+    height: 28px;
+    margin-left: -10px;
+    border: 0;
+    padding: 0 0 0 10px;
+    outline: none;
+}
+
+.header_button_search {
+    outline: 0;
+    border: none;
+    color: #fff;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    right: 0;
+    height: 30px;
+    width: 32px;
+    margin-top: -1px;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    background-color: var(--primary-color);
+}
+
+.header_navbar {
+    width: 60%;
+    margin-left: 40px; 
+}
+.header_app_add {
+    width: 5.4%;
+}
+.header_app {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: flex;
+}
+.logo_search {
+    color: #fff;
+    padding: 9px;
+}
+.icon_sale {
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+
+.header_icon {
+    float: left;
+    text-align: center;
+    font-weight: 400;
+}
+.icon_item {
+    height: 30px;
+    width: 100%;
+}
+.header_recruitment {
+    width: 10%;
+}
+.header_icon_add {
+    position: relative;
+    padding: 0 7px 5px;
+    font-size: 12px;
+    color: #211f1f;
+    text-align: center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    text-decoration: none;
+    display: inline-block;
+}
+.icon {
+    display: block;
+    margin: 7px auto;
+    height: 29px;
+    background-image: url(https://www.dealtichtac.com/assets/css/logo.png);
+    background-repeat: no-repeat;
+    background-size: 498px 300px;
+}
+.icon_hot {
+    width: 22px;
+    background-position: -365px 0;
+}
+.icon_hot:hover {
+    width: 22px;
+    background-position: -365px -32px;
+}
+.header_icon_add_hot {
+    width: 22px;
+}
+.icon_sale {
+    width: 43px;
+    background-position: -390px 0;
+    margin-left: 10px;
+}
+.icon_sale:hover {
+    width: 43px;
+    background-position: -390px -32px;
+    margin-left: 10px;
+}
+.header_icon_add_sale {
+    width: 64px;
+}
+.header_icon_add_mouse {
+    width: 32px;
+}
+.icon_mouse {
+    width: 21px;
+    background-position: 0 0;
+}
+.icon_mouse:hover {
+    width: 21px;
+    background-position: 0 -34px;
+}
+.header_icon_add_headphone {
+    width: 62px;
+}
+.icon_headphone {
+    width: 31px;
+    background-position: -24px 0;
+}
+.icon_headphone:hover {
+    width: 31px;
+    background-position: -24px -34px;
+}
+.header_icon_add_loudspeaker {
+    width: 31px;
+}
+.icon_loudspeaker {
+    width: 31px;
+    background-position: -55px -1px;
+}
+.icon_loudspeaker:hover {
+    width: 31px;
+    background-position: -55px -35px;
+}
+.header_icon_add_equiqment {
+    width: 74px;
+}
+.icon_equiqment {
+    width: 35px;
+    background-position: -129px 0;
+}
+.icon_equiqment:hover {
+    width: 35px;
+    background-position: -129px -34px;
+}
+.header_icon_add_Cable {
+    width: 46px;
+}
+.icon_Cable {
+    width: 36px;
+    background-position: -88px 0;
+}
+.icon_Cable:hover {
+    width: 36px;
+    background-position: -88px -34px;
+}
+.header_icon_add_battery {
+    width: 73px;
+}
+.icon_battery {
+    width: 34px;
+    background-position: -269px 0;
+}
+.icon_battery:hover {
+    width: 34px;
+    background-position: -269px -34px;
+}
+.header_icon_add_wireless {
+    width: 46px;
+}
+.icon_wireless {
+    width: 26px;
+    background-position: -164px 0;
+}
+.icon_wireless:hover {
+    width: 26px;
+    background-position: -164px -34px;
+}
+.header_icon_add_keyboarb {
+    width: 52px;
+}
+.icon_keyboarb {
+    width: 39px;
+    background-position: -197px 0;
+}
+.icon_keyboarb:hover {
+    width: 39px;
+    background-position: -197px -34px;
+}
+.header_icon_add_USB {
+    width: 25px;
+}
+.icon_USB {
+    width: 31px;
+    background-position: -239px 0;
+}
+.icon_USB:hover {
+    width: 31px;
+    background-position: -239px -34px;
+}
+.icon_recruitment {
+    width: 80px;
+    height: 45px;
+    background-position: -143px -70px;
+}

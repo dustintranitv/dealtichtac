@@ -1,0 +1,194 @@
+/* content */
+.header_content_top {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.header_content_top_img {
+    display: block;
+    width: 900px;
+    height: 303px;
+}
+.header_content_top_right_item {
+    list-style: none;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+.header_content_top_right_item_small_img {
+    width: 210px;
+    height: 85px;
+}
+.header_content_top_right_item_small {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.item_small_introduction:hover {
+    position: relative;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.item_small_img {
+    width: 150%;
+    height: 100%;
+}
+.item_small_introduction {
+    padding: 10px;
+    width: 100%;
+    background-color: #fff;
+}
+.item_small_introduction_title {
+    font-size: 1.1rem;
+    font-weight: 550;
+}
+.item_small_introduction_centent {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
+.item_small_img_shop {
+    width: 151px;
+}
+
+/* TRANG CHỦ SẢN PHẨM */
+.header_product {
+    width: 100%;
+    font-size: 14px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.header_product_homepage_link {
+    width: 100%;
+    padding: 8px 0px 8px 20px;
+}
+.header_product_homepage {
+    color: #333;
+    text-decoration: none;
+}
+.header_product_homepage:hover {
+    color: #337ab7;
+}
+/* header product content */
+.header_product_content {
+    width: 100%;
+    display: flex;
+}
+.header_product_content_left {
+    margin: 0;
+    padding: 0;
+}
+
+.header_product_content_left {
+    width: 9%;
+    background-color: #fff;
+    margin-right: 12px;
+}
+.header_product_content_left_link {
+    text-decoration: none;
+}
+.header_product_content_left_img {
+    list-style: none;
+    margin: 10px;
+}
+.header_product_content_left_img_link {
+    width: 86px;
+    height: 86px;
+    border: 1px solid #ccc;
+    
+}
+.header_product_content_content {
+    width: 35%;
+    background-color: #fff;
+    margin-right: 12px;
+}
+.header_product_content_content_img {
+    width: 400px;
+    height: 400px;
+    padding: 9px;
+    background-color: #fff;
+}
+.header_product_content_right {
+    width: 54%;
+    background-color: #fff;
+}
+/* header product content right */
+.header_product_content_right_content {
+    margin: 20px 20px;
+
+}
+.header_product_content_right_introduce {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    font-family: inherit;
+    color: #333;
+}
+.header_product_content_right_price {
+    font-size: 14px;
+    font-size: 700;
+    line-height: 14px;
+}
+.header_product_content_right_price_number {
+    color: red;
+    font-size: 19px;
+    margin-bottom: 4px;
+}
+.header_product_content_right_insurance {
+    display: block;
+    padding: 8px;
+    border: 1px solid #365899;
+    width: max-content;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: serif;
+    color: #365899;
+    background-color: #eaedf1;
+}
+.header_product_content_right_insurance_star_promotion {
+    font-size: 14px;
+    color: red;
+}
+.header_product_content_right_insurance_promotion {
+    font-size: 14px;
+    color: red;
+    font-weight: 600;
+}
+.header_product_content_right_strikethrough {
+    display: block;
+    border: .5px solid #999;
+    width: 77%;
+    margin: 10px 0;
+}
+.header_product_content_right_delivery {
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+.header_product_content_right_cart {
+    display: block;
+    padding: 10px 53px;
+    border: 1px solid #5baf00;
+    width: max-content;
+    border-radius: 5px;
+    font-family: serif;
+    background-color: #5baf00;
+    margin: 7px 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.header_product_content_right_cart_link {
+    text-decoration: none;
+    color: #fff;
+}
+.header_product_content_right_contact {
+    font-size: 14px;
+    margin-top: 7px;
+}
+.header_product_content_right_contact_phone {
+    text-decoration: none;
+    color: #365899;
+}
