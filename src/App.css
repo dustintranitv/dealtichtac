@@ -1,18 +1,6 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +24,13 @@
     transform: rotate(360deg);
   }
 }
+@import url(../src/assets/css/base.css);
+@import url(../src/assets/css/contentcss.css);
+@import url(../src/assets/css/footercss.css);
+@import url(../src/assets/css/gowithcss.css);
+@import url(../src/assets/css/headingcss.css);
+@import url(../src/assets/css/main.css);
+@import url(../src/assets/css/mainhome.css);
+@import url(../src/assets/css/productcss.css);
+@import url(../src/assets/css/producttypecss.css);
+@import url(../src/assets/css/samekingcss.css);
